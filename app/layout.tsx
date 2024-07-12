@@ -12,7 +12,12 @@ import { TailwindIndicator } from "@/components/tailwind-indicator";
 
 export const metadata = constructMetadata();
 
-export default function RootLayout({ children }: RootLayoutProps) {
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  
   return (
     <html lang="en" suppressHydrationWarning>
       <head />
