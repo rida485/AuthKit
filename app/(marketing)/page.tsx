@@ -1,5 +1,3 @@
-
-
 import BentoGrid from "@/components/sections/bentogrid";
 import HeroLanding from "@/components/sections/hero-landing";
 import Powered from "@/components/sections/powered";
