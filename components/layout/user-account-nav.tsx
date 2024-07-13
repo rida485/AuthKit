@@ -70,7 +70,7 @@ export function UserAccountNav() {
                     onClick={closeDrawer}
                     className="flex w-full items-center gap-3 px-2.5 py-2"
                   >
-                    <Lock className="size-4" />
+                    <Lock className="size-4 cursor-pointer" />
                     <p className="text-sm">Admin</p>
                   </Link>
                 </li>
@@ -82,7 +82,7 @@ export function UserAccountNav() {
                   onClick={closeDrawer}
                   className="flex w-full items-center gap-3 px-2.5 py-2"
                 >
-                  <LayoutDashboard className="size-4" />
+                  <LayoutDashboard className="size-4 cursor-pointer" />
                   <p className="text-sm">Dashboard</p>
                 </Link>
               </li>
@@ -93,7 +93,7 @@ export function UserAccountNav() {
                   onClick={closeDrawer}
                   className="flex w-full items-center gap-3 px-2.5 py-2"
                 >
-                  <Settings className="size-4" />
+                  <Settings className="size-4 cursor-pointer" />
                   <p className="text-sm">Settings</p>
                 </Link>
               </li>

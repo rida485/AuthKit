@@ -27,7 +27,7 @@ export function DeleteAccountSection() {
             caution.
           </CardDescription>
         </CardHeader>
-        <CardFooter className="mt-2 flex justify-end border-t border-red-600 bg-red-500/5 py-2">
+        <CardFooter className="mt-2 flex justify-end py-2">
           <Button
             type="submit"
             variant="destructive"

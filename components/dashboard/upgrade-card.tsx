@@ -11,7 +11,7 @@ export function UpgradeCard() {
   return (
     <Card className="md:max-xl:rounded-none md:max-xl:border-none md:max-xl:shadow-none">
       <CardHeader className="md:max-xl:px-4">
-        <CardTitle>Upgrade to Pro</CardTitle>
+        <CardTitle>Upgrade my Plan</CardTitle>
         <CardDescription>
           Unlock all features and get unlimited access to our support team.
         </CardDescription>
